@@ -1,0 +1,41 @@
+add_library(Engine
+	Animation.cpp
+	Animation.h
+	Animator.cpp
+	Animator.h
+	AssimpNodeData.h
+	assimp_glm_helpers.h
+	Bone.cpp
+	Bone.h
+	BoneInfo.h
+	BoundingBox.cpp
+	BoundingBox.h
+	Camera.cpp
+	Camera.h
+	Change.cpp
+	Change.h
+	eigen_glm_helpers.h
+	Face.h
+	GUI.cpp
+	GUI.h
+	Mesh.cpp
+	Mesh.h
+	Model.cpp
+	Model.h
+	Ray.cpp
+	Ray.h
+	Shader.cpp
+	Shader.h
+	StatusManager.cpp
+	StatusManager.h
+	Texture.h
+	TextureManager.cpp
+	TextureManager.h
+	Utility.cpp
+	Utility.h
+	Vertex.h
+	VertexBoneData.h
+	Window.cpp
+	Window.h
+)
+target_link_libraries(imgui glad glfw stb glm assimp FileBrowser)
