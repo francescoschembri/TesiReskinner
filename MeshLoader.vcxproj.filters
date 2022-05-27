@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di risorse\Shaders">
+      <UniqueIdentifier>{4552c963-3d0d-4dde-aa08-b2d0c14edf8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\external">
+      <UniqueIdentifier>{b6ecdf37-fbdf-4dfb-bcf2-adf46abbf7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\external">
+      <UniqueIdentifier>{511707ad-3720-44fc-9667-2b434a5b6de8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Animation.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animator.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bone.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>File di origine\external</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_widgets.cpp">
+      <Filter>File di origine\external</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui.cpp">
+      <Filter>File di origine\external</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_demo.cpp">
+      <Filter>File di origine\external</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_draw.cpp">
+      <Filter>File di origine\external</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_impl_glfw.cpp">
+      <Filter>File di origine\external</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>File di origine\external</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_stdlib.cpp">
+      <Filter>File di origine\external</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\imgui\imgui_tables.cpp">
+      <Filter>File di origine\external</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\include\FileBrowser\ImFileDialog.cpp">
+      <Filter>File di origine\external</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextureManager.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatusManager.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utility.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Change.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BoundingBox.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libraries\include\imgui\imgui.h">
+      <Filter>File di intestazione\external</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imgui_impl_glfw.h">
+      <Filter>File di intestazione\external</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imgui_impl_opengl3.h">
+      <Filter>File di intestazione\external</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>File di intestazione\external</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imgui_internal.h">
+      <Filter>File di intestazione\external</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imgui_stdlib.h">
+      <Filter>File di intestazione\external</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imstb_rectpack.h">
+      <Filter>File di intestazione\external</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imstb_textedit.h">
+      <Filter>File di intestazione\external</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\include\imgui\imstb_truetype.h">
+      <Filter>File di intestazione\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Animation.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Animator.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assimp_glm_helpers.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AssimpNodeData.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bone.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BoneInfo.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Change.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Face.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StatusManager.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextureManager.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utility.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vertex.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VertexBoneData.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eigen_glm_helpers.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BoundingBox.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\animated_model_loading.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\animated_model_loading.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\screen_shader.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\mouse_shader.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\mouse_shader.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\wireframe.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\wireframe.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\hover.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\hover.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\selected.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\selected.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\animated_model_loading.gs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\num_bones_visualization.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\influence_of_single_bone.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\influence_of_single_bone.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\no_lighting_shader.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\no_lighting_shader.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\smooth_lighting_shader.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\smooth_lighting_shader.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\grey_model.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\grey_model.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\normal_visualizer.gs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\normal_visualizer.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\normal_visualizer.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\floor.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\floor.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\bb.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+    <None Include="Shaders\bb.fs">
+      <Filter>File di risorse\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Shaders\screen_shader.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\num_bones_visualization.vs">
+      <Filter>File di risorse\Shaders</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
