@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\franc\Desktop\Reskinner\build\CMakeFiles\51f900e86924c486ccce84c17e066c88\always_rebuild.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\franc\Desktop\Reskinner\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\franc\Desktop\Reskinner\build\CMakeFiles\always_rebuild" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{76C6B3FC-F3B4-3847-BA08-F999BC6EDC94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

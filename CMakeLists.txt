@@ -26,11 +26,11 @@ add_custom_target(always_rebuild ALL
 target_include_directories(${PROJECT_NAME}
     PUBLIC external/glfw/include
     PUBLIC external/assimp/include
-    PUBLIC external/glm/include
-    PUBLIC external/glad
-    PUBLIC external/imgui
-    PUBLIC external/stb
-    PUBLIC external/FileBrowser
+    PUBLIC external/glm
+    PUBLIC external
+    PUBLIC external
+    PUBLIC external
+    PUBLIC external
     PUBLIC src
 )
 
