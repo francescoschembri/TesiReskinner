@@ -1,1 +1,1 @@
-add_library(stb stb_image_resize.h stb_image.h)
+add_library(stb stb.cpp stb_image_resize.h stb_image.h)

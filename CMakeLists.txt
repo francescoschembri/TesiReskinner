@@ -14,7 +14,6 @@ add_subdirectory(external/imgui)
 add_subdirectory(external/stb)
 add_subdirectory(external/glm)
 add_subdirectory(external/FileBrowser)
-add_subdirectory(external/KHR)
 add_subdirectory(src)
 
 add_custom_target(always_rebuild ALL
@@ -32,7 +31,6 @@ target_include_directories(${PROJECT_NAME}
     PUBLIC external/imgui
     PUBLIC external/stb
     PUBLIC external/FileBrowser
-    PUBLIC external/KHR
     PUBLIC src
 )
 
@@ -44,16 +42,15 @@ target_link_directories(${PROJECT_NAME}
     PRIVATE external/imgui
     PRIVATE external/stb
     PRIVATE external/FileBrowser
-    PRIVATE external/KHR
     PRIVATE src
 )
 
 IF(WIN32)
-    target_link_libraries(${PROJECT_NAME} glfw glad imgui stb glm Engine assimp FileBrowser KHR opengl32)
+    target_link_libraries(${PROJECT_NAME} glfw glad imgui stb glm Engine assimp FileBrowser opengl32)
 ELSEIF(UNIX)
-    target_link_libraries(${PROJECT_NAME} glfw glad imgui stb glm Engine assimp FileBrowser KHR)
+    target_link_libraries(${PROJECT_NAME} glfw glad imgui stb glm Engine assimp FileBrowser)
 ELSEIF(APPLE)
     target_link_libraries(${PROJECT_NAME} "-framework OpenGL")
     target_link_libraries(${PROJECT_NAME} "-framework GLUT")
-    target_link_libraries(${PROJECT_NAME} glfw glad imgui stb glm Engine assimp FileBrowser KHR)
+    target_link_libraries(${PROJECT_NAME} glfw glad imgui stb glm Engine assimp FileBrowser)
 ENDIF()

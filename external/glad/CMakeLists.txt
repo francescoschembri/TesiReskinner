@@ -1,1 +1,1 @@
-add_library(glad glad.h)
+add_library(glad glad.c glad.h)
