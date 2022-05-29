@@ -12,6 +12,7 @@ set(ASSIMP_INCLUDE_DIRS "external/assimp/include")
 include_directories(${ASSIMP_INCLUDE_DIRS})
 link_directories(${ASSIMP_LIBRARY_DIRS})
 
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 
 add_subdirectory(external/glfw)
 add_subdirectory(external/assimp)
