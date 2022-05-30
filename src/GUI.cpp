@@ -77,7 +77,7 @@ void SetupFileDialog()
 	};
 
 	ifd::FileDialog::Instance().DeleteTexture = [](void* tex) {
-		GLuint texID = (GLuint)tex;
+		GLuint texID = *((GLuint*)tex);
 		glDeleteTextures(1, &texID);
 	};
 }

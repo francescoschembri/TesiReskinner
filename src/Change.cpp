@@ -1,5 +1,5 @@
 #include "Change.h"
-#include "eigen_glm_helpers.h"
+//#include "eigen_glm_helpers.h"
 
 Change::Change(std::vector<Vertex*>& changedVertices, ChangeType type)
 	:

@@ -1,5 +1,10 @@
 #include  "Animator.h"
 
+float clamp(float v, float min, float max) {
+	if(v<=min) return min;
+	else if(v>=max) return max;
+	else return v;
+}
 
 Animator::Animator() : currentAnimationIndex(0), m_FinalBoneMatrices(100, glm::mat4(1.0f)), playdir(1), playmode(0)
 {
@@ -27,7 +32,7 @@ void Animator::UpdateAnimation(float dt)
 			}
 		}
 		else { //loop
-			currentAnimation.currentTime = std::clamp(fmod(currentAnimation.currentTime, currentAnimation.endAt), currentAnimation.startFrom, currentAnimation.endAt);
+			currentAnimation.currentTime = clamp(fmod(currentAnimation.currentTime, currentAnimation.endAt), currentAnimation.startFrom, currentAnimation.endAt);
 		}
 		CalculateBoneTransform(&currentAnimation.GetRootNode(), glm::mat4(1.0f));
 	}
