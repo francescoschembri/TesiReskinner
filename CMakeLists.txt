@@ -9,8 +9,6 @@ add_executable(${PROJECT_NAME} Main.cpp)
  
 
 include(${CMAKE_BINARY_DIR}/conan_paths.cmake)
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup()
 
 find_package(OpenGL REQUIRED)
 find_package(glad REQUIRED)
@@ -18,8 +16,8 @@ find_package(glfw REQUIRED)
 find_package(glm REQUIRED)
 find_package(stb REQUIRED)
 find_package(assimp REQUIRED)
-find_package(imgui REQUIRED)
 
+add_subdirectory(external/imgui)
 add_subdirectory(external/FileBrowser)
 add_subdirectory(src)
 
@@ -31,7 +29,6 @@ include_directories(
     ${glm_INCLUDE_DIRS}
     ${stb_INCLUDE_DIRS}
     ${assimp_INCLUDE_DIRS}
-    ${imgui_INCLUDE_DIRS}
     external
     src
 )
@@ -43,7 +40,7 @@ target_link_libraries(${PROJECT_NAME}
 	${glm_LIBRARIES} 
 	${stb_LIBRARIES}
 	${assimp_LIBRARIES}
-	${imgui_LIBRARIES} 
-	Engine 
+	imgui
 	FileBrowser
+	Engine 
 )

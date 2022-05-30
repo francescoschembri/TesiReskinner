@@ -9,5 +9,6 @@ sudo apt-get install build-essential
 cd ~/Desktop
 git clone --recursive https://github.com/francescoschembri/TesiReskinner
 cd TesiReskinner/build
+conan install ..
 cmake -S .. -B .
 make
