@@ -38,4 +38,13 @@ add_library(Engine
 	Window.cpp
 	Window.h
 )
-target_link_libraries(imgui glad glfw stb glm assimp FileBrowser)
+target_link_libraries(Engine
+	${OpenGL_LIBRARIES} 
+	${glad_LIBRARIES}
+	${glfw_LIBRARIES} 
+	${glm_LIBRARIES} 
+	${stb_LIBRARIES}
+	${assimp_LIBRARIES}
+	${imgui_LIBRARIES} 
+	FileBrowser
+)
