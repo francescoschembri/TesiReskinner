@@ -12,7 +12,7 @@ include(${CMAKE_BINARY_DIR}/conan_paths.cmake)
 
 find_package(OpenGL REQUIRED)
 find_package(glad REQUIRED)
-find_package(glfw REQUIRED)
+find_package(glfw3 REQUIRED)
 find_package(glm REQUIRED)
 find_package(stb REQUIRED)
 find_package(assimp REQUIRED)
@@ -25,7 +25,7 @@ add_subdirectory(src)
 include_directories(
     ${OpenGL_INCLUDE_DIRS}
     ${glad_INCLUDE_DIRS}
-    ${glfw_INCLUDE_DIRS}
+    ${glfw3_INCLUDE_DIRS}
     ${glm_INCLUDE_DIRS}
     ${stb_INCLUDE_DIRS}
     ${assimp_INCLUDE_DIRS}
@@ -36,7 +36,7 @@ include_directories(
 target_link_libraries(${PROJECT_NAME} 
 	${OpenGL_LIBRARIES} 
 	${glad_LIBRARIES}
-	${glfw_LIBRARIES} 
+	${glfw3_LIBRARIES} 
 	${glm_LIBRARIES} 
 	${stb_LIBRARIES}
 	${assimp_LIBRARIES}
