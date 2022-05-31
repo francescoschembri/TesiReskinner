@@ -32,10 +32,10 @@ add_subdirectory(external/FileBrowser)
 add_subdirectory(src)
 
 file(MAKE_DIRECTORY
-        "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Shaders")
+        "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/../Shaders")
 
 function(install_file_to_bin file_name)
-    file(INSTALL "${CMAKE_SOURCE_DIR}/Shaders/${file_name}" DESTINATION "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Shaders")
+    file(INSTALL "${CMAKE_SOURCE_DIR}/Shaders/${file_name}" DESTINATION "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/../Shaders")
 endfunction()
 
 install_file_to_bin(1.model_loading.fs)
