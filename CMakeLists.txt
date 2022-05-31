@@ -80,6 +80,9 @@ install_file_to_bin(smooth_lighting_shader.vs)
 install_file_to_bin(wireframe.vs)
 install_file_to_bin(wireframe.fs)
 
+set(CMAKE_CXX_INCLUDE_WHAT_YOU_USE 1)
+set(CMAKE_LINK_WHAT_YOU_USE 1)
+set_property(TARGET ${PROJECT_NAME} PROPERTY INTERPROCEDURAL_OPTIMIZATION TRUE)
 
 include_directories(
     ${OpenGL_INCLUDE_DIRS}
